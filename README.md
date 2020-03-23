@@ -4,10 +4,21 @@ File upload based on node multiparty.
 
 ## Usage
 
+### Sever
+
 ```shell
 git clone https://github.com/chengkj99/file-upload.git
 
 npm install
 
 npm start
+```
+
+### Client
+
+```shell
+  curl -F 'uploadsh=@[path]'  http://127.0.0.1:3000/upload
+
+  # for example
+  curl -F 'img_avatar=@/home/petehouston/hello.txt'  http://127.0.0.1:3000/upload
 ```
