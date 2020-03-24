@@ -6,7 +6,7 @@ const path = require('path')
 const getDirInfo = require('./getDirInfo')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 9000
 const staticDir = path.resolve(__dirname, '../files')
 
 app.use(express.static('src'))
