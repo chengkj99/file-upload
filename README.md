@@ -25,4 +25,4 @@ npm start
 
 ### View file list
 
-http://127.0.0.1:9000
+After starting the server，then visit http://127.0.0.1:9000
