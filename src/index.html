@@ -65,8 +65,7 @@
         )
       },
       humanTime(t) {
-        const v = new Date(t)
-        return moment(v).format('YYYY-MM-DD hh:mm:ss')
+        return moment(t).utc(8).format("YYYY-MM-DD HH:mm:ss")
       }
     }
   })
