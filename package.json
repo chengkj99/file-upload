@@ -4,7 +4,7 @@
   "description": "File upload based on node multiparty",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "multiparty": "^4.2.1"
   },
   "devDependencies": {},
